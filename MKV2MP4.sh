@@ -41,9 +41,3 @@ for FILE in "$INPUT_DIRECTORY"/*.mkv; do
 done
 echo "END"
 
-#ffmpeg -i /nearline/DLNA/Anime/Legend\ of\ the\ Galactic\ Heroes/Legend.of.the.Galactic.Heroes.002.\[x264.720p.10bit.AAC\].mkv -c:v hevc -c:a copy -c:s mov_text -metadata:s:s:0 language=eng /nearline/DLNA/Anime/Legend\ of\ the\ Galactic\ Heroes/Legend.of.the.Galactic.Heroes.002.\[x264.720p.10bit.AAC\].mp4;
-
-
-#ffmpeg -i /nearline/DLNA/Anime/Legend\ of\ the\ Galactic\ Heroes/Legend.of.the.Galactic.Heroes.002.\[x264.720p.10bit.AAC\].mkv -map 0:s:0 /nearline/DLNA/Anime/Legend\ of\ the\ Galactic\ Heroes/Legend.of.the.Galactic.Heroes.002.\[x264.720p.10bit.AAC\].srt
-	
-
